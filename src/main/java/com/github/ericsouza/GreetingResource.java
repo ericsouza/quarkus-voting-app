@@ -17,6 +17,6 @@ public class GreetingResource {
 
     @GET
     public TemplateInstance hello() {
-        return indexTpl.data("myHello", "hello world!!!!");
+        return indexTpl.data("myHello", "hello world!");
     }
 }
