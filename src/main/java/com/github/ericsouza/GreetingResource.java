@@ -3,8 +3,6 @@ package com.github.ericsouza;
 import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
 
 import io.quarkus.qute.Template;
 import io.quarkus.qute.TemplateInstance;
